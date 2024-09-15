@@ -1,0 +1,86 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
+
+        <title>Document</title>
+
+        <style>
+            body {
+                font-family: "Manrope", sans-serif;
+            }
+        </style>
+    </head>
+    <body class="bg-[#ecf2f8] md:flex md:items-center md:justify-center">
+        <main class="py-12 px-6">
+            <div class="bg-white rounded-lg shadow-[0_8px_30px_rgb(0,0,0,0.12)] md:max-w-[42.5rem] md:flex">
+                <img
+                    class="rounded-t-lg h-44 w-full md:h-[18.75rem] md:w-[13.75rem] md:rounded-l-lg"
+                    src="./images/drawers.jpg"
+                    alt=""
+                />
+                <div class="px-8 flex flex-col gap-8 md:justify-between">
+                    <div class="flex flex-col gap-4 mt-8">
+                        <h1 class="font-bold text-[#48556a]">
+                            Shift the overall look and feel by adding these wonderful touches to furniture in your home
+                        </h1>
+                        <p class="font-medium text-[#6d7f97] text-sm">
+                            Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and
+                            uninviting. I've got some simple tips to help you make any room feel complete.
+                        </p>
+                    </div>
+
+                    <div
+                        class="flex justify-between items-center mb-6 md:flex md:justify-between md:items-center md:mb-6 md:relative"
+                        id="person"
+                    >
+                        <div class="flex items-center gap-4">
+                            <img class="rounded-full h-9" src="./images/avatar-michelle.jpg" alt="" />
+                            <div class="flex flex-col gap-1">
+                                <h1 class="font-bold text-[#48556a] text-sm">Michelle Appleton</h1>
+                                <p class="font-medium text-[#9eafc2] text-sm">28 Jun 2020</p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="md:hidden md:flex md:justify-between md:items-center md:mt-6 md:px-8 md:h-16 md:w-[230px] md:rounded-lg md:bg-[#48556a] md:absolute md:left-64 md:-top-24"
+                            id="socailMedia"
+                        >
+                            <div class="hidden md:flex md:items-center md:gap-4 md:justify-between">
+                                <p class="text-[#ecf2f8] tracking-widest h-5">SHARE</p>
+                                <div class="flex items-center gap-4">
+                                    <img src="./images/icon-facebook.svg" alt="" />
+                                    <img src="./images/icon-twitter.svg" alt="" />
+                                    <img src="./images/icon-pinterest.svg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <img class="h-5 cursor-pointer" src="./images/icon-share.svg" alt="" id="share" />
+                    </div>
+                </div>
+                <div
+                    class="hidden flex justify-between items-center mt-6 px-8 h-16 rounded-b-lg bg-[#48556a] md:hidden"
+                    id="mobileSocailMedia"
+                >
+                    <div class="flex items-center gap-4 justify-between md:hidden">
+                        <p class="text-[#ecf2f8] tracking-widest h-5">SHARE</p>
+                        <div class="flex items-center gap-4">
+                            <img src="./images/icon-facebook.svg" alt="" />
+                            <img src="./images/icon-twitter.svg" alt="" />
+                            <img src="./images/icon-pinterest.svg" alt="" />
+                        </div>
+                    </div>
+                    <img class="h-5 cursor-pointer" src="./images/icon-share.svg" alt="" id="mobileShare" />
+                </div>
+            </div>
+        </main>
+        <script src="main.js"></script>
+    </body>
+</html>
